@@ -263,3 +263,6 @@ maze.generateDepthFirst();
 //maze.generateAldousBroder();
 // maze.generateKrushkal();
 maze.draw();
+
+// Maze resolver
+const mazeResolver = new MazeResolver(maze);
